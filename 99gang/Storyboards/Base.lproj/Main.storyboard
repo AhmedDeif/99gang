@@ -36,11 +36,21 @@
                                     <constraint firstAttribute="height" constant="1" id="apd-CP-Hhb"/>
                                 </constraints>
                             </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="s1r-ri-Hew" customClass="InteractiveTextfieldView" customModule="_9gang" customModuleProvider="target">
+                                <rect key="frame" x="41.5" y="201" width="292.5" height="60"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="60" id="8vs-a7-O0r"/>
+                                </constraints>
+                            </view>
                         </subviews>
                         <color key="backgroundColor" red="0.078431372549019607" green="0.078431372549019607" blue="0.078431372549019607" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
+                            <constraint firstItem="s1r-ri-Hew" firstAttribute="width" secondItem="9qB-Xp-NJh" secondAttribute="width" id="8sG-6s-v0I"/>
+                            <constraint firstItem="s1r-ri-Hew" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="9HO-So-QtH"/>
                             <constraint firstItem="34m-wI-5Pn" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="E9S-s9-bZK"/>
                             <constraint firstItem="34m-wI-5Pn" firstAttribute="width" secondItem="8bC-Xf-vdC" secondAttribute="width" multiplier="0.78" id="TPY-GI-vHS"/>
+                            <constraint firstItem="s1r-ri-Hew" firstAttribute="top" secondItem="9qB-Xp-NJh" secondAttribute="bottom" constant="40" id="cqk-Nr-gqI"/>
                             <constraint firstItem="9qB-Xp-NJh" firstAttribute="top" secondItem="34m-wI-5Pn" secondAttribute="bottom" id="dHb-E2-ylW"/>
                             <constraint firstItem="34m-wI-5Pn" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="100" id="qky-Ao-3jg"/>
                             <constraint firstItem="9qB-Xp-NJh" firstAttribute="width" secondItem="34m-wI-5Pn" secondAttribute="width" id="tFp-Nd-bi2"/>
