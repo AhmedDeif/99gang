@@ -40,14 +40,14 @@
                         <constraint firstAttribute="height" constant="1" id="naI-AL-9Ir"/>
                     </constraints>
                 </view>
-                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Incorrect email. Please try again." lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="DTq-l6-fPj">
-                    <rect key="frame" x="0.0" y="50" width="375" height="12"/>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="DTq-l6-fPj">
+                    <rect key="frame" x="0.0" y="50" width="375" height="0.0"/>
                     <fontDescription key="fontDescription" type="system" pointSize="10"/>
                     <color key="textColor" red="0.98431372549019602" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                     <nil key="highlightedColor"/>
                 </label>
             </subviews>
-            <color key="backgroundColor" red="0.078431372549019607" green="0.078431372549019607" blue="0.078431372549019607" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
             <constraints>
                 <constraint firstItem="gnO-26-5ug" firstAttribute="top" secondItem="vUN-kp-3ea" secondAttribute="top" constant="8" id="2He-sS-qwg"/>
                 <constraint firstItem="un4-Lq-hRU" firstAttribute="leading" secondItem="gnO-26-5ug" secondAttribute="leading" id="GjJ-fP-thz"/>
